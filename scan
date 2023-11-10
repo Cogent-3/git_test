@@ -1,0 +1,48 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-11-09 19:35 EST
+Stats: 0:07:11 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 99.99% done; ETC: 19:42 (0:00:00 remaining)
+Nmap scan report for 172-104-4-139.ip.linodeusercontent.com (172.104.4.139)
+Host is up (0.032s latency).
+Not shown: 979 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE        VERSION
+19/tcp    filtered chargen
+22/tcp    open     ssh            OpenSSH 9.3p2 Debian 1 (protocol 2.0)
+| ssh-hostkey: 
+|   256 51:43:14:2d:f2:30:3a:d2:21:f9:bb:6a:98:72:52:c4 (ECDSA)
+|_  256 31:87:f4:ce:d1:d0:6a:03:04:35:22:96:fe:80:51:59 (ED25519)
+23/tcp    open     telnet
+42/tcp    filtered nameserver
+53/tcp    filtered domain
+111/tcp   filtered rpcbind
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+161/tcp   filtered snmp
+445/tcp   filtered microsoft-ds
+512/tcp   filtered exec
+513/tcp   filtered login
+514/tcp   filtered shell
+515/tcp   filtered printer
+593/tcp   filtered http-rpc-epmap
+1026/tcp  filtered LSA-or-nterm
+1027/tcp  filtered IIS
+1434/tcp  filtered ms-sql-m
+1900/tcp  filtered upnp
+2049/tcp  filtered nfs
+15000/tcp filtered hydap
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port23-TCP:V=7.94SVN%I=7%D=11/9%Time=654D7CA9%P=aarch64-unknown-linux-g
+SF:nu%r(NULL,15,"\xff\xfb%\xff\xfb&\xff\xfd\x18\xff\xfd\x20\xff\xfd#\xff\x
+SF:fd'\xff\xfd\$")%r(GenericLines,15,"\xff\xfb%\xff\xfb&\xff\xfd\x18\xff\x
+SF:fd\x20\xff\xfd#\xff\xfd'\xff\xfd\$")%r(tn3270,21,"\xff\xfb%\xff\xfb&\xf
+SF:f\xfd\x18\xff\xfd\x20\xff\xfd#\xff\xfd'\xff\xfd\$\xff\xfe\x19\xff\xfc\x
+SF:19\xff\xfd\0\xff\xfb\0")%r(GetRequest,15,"\xff\xfb%\xff\xfb&\xff\xfd\x1
+SF:8\xff\xfd\x20\xff\xfd#\xff\xfd'\xff\xfd\$")%r(RPCCheck,15,"\xff\xfb%\xf
+SF:f\xfb&\xff\xfd\x18\xff\xfd\x20\xff\xfd#\xff\xfd'\xff\xfd\$")%r(Help,15,
+SF:"\xff\xfb%\xff\xfb&\xff\xfd\x18\xff\xfd\x20\xff\xfd#\xff\xfd'\xff\xfd\$
+SF:")%r(SIPOptions,15,"\xff\xfb%\xff\xfb&\xff\xfd\x18\xff\xfd\x20\xff\xfd#
+SF:\xff\xfd'\xff\xfd\$")%r(NCP,15,"\xff\xfb%\xff\xfb&\xff\xfd\x18\xff\xfd\
+SF:x20\xff\xfd#\xff\xfd'\xff\xfd\$");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 537.19 seconds
